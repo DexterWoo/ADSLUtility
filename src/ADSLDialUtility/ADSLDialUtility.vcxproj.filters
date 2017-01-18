@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{3d1c0e80-0d3c-4395-8f17-fb14278dc9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DialFunctions">
+      <UniqueIdentifier>{33f6812d-82c4-4a04-877d-30da60722d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Remote">
+      <UniqueIdentifier>{b83d4c6e-85b3-4650-8b6e-6fabe00f83c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Log">
+      <UniqueIdentifier>{291fb833-64db-4b64-8c5a-659f431b58fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Remote\http">
+      <UniqueIdentifier>{681caaf7-7f79-4be6-a165-e8c779d59bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Remote\Json11">
+      <UniqueIdentifier>{b52ff534-645b-4896-ad43-fe1e9cb9d9b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADSLDialUtility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IEControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trayicon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AppConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ADSLDialUtilityDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EditEx.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialupass.h">
+      <Filter>DialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="RasClient.h">
+      <Filter>DialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="RasControl.h">
+      <Filter>DialFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>头文件\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="gtl\inner.h">
+      <Filter>头文件\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="gtl\str.h">
+      <Filter>头文件\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpClient.h">
+      <Filter>Remote\http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpSession.h">
+      <Filter>Remote\http</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskExecuter.h">
+      <Filter>Remote</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteTaskDefs.h">
+      <Filter>Remote</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteCmdParser.h">
+      <Filter>Remote</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteController.h">
+      <Filter>Remote</Filter>
+    </ClInclude>
+    <ClInclude Include="json11.hpp">
+      <Filter>Remote\Json11</Filter>
+    </ClInclude>
+    <ClInclude Include="gtl\tchr.h">
+      <Filter>头文件\Log</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ADSLDialUtility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IEControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trayicon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AppConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ADSLDialUtilityDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EditEx.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialupass.cpp">
+      <Filter>DialFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="RasClient.cpp">
+      <Filter>DialFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="RasControl.cpp">
+      <Filter>DialFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteController.cpp">
+      <Filter>Remote</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteCmdParser.cpp">
+      <Filter>Remote</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskExecuter.cpp">
+      <Filter>Remote</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpSession.cpp">
+      <Filter>Remote\http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpClient.cpp">
+      <Filter>Remote\http</Filter>
+    </ClCompile>
+    <ClCompile Include="json11.cpp">
+      <Filter>Remote\Json11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ADSLDialUtility.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ADSLDialUtility.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ADSLDialUtility.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
