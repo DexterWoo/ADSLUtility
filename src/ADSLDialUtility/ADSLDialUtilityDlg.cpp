@@ -31,7 +31,7 @@ VOID CADSLDialUtilityDlg::UpdateStates(RASCONNSTATE rasconnstate, DWORD dwError)
 		m_stCurIP.SetText(strText);
 		Tray.SetTooltipText(strText);
 	}
-	if (RASCS_AuthNotify == rasconnstate)
+	if (RASCS_AuthNotify == rasconnstate && dwError != 0)
 	{
 		Redial();
 	}
@@ -214,7 +214,8 @@ CString CADSLDialUtilityDlg::GetStateDescription(RASCONNSTATE rasconnstate, CStr
 	default:
 		strText = _T("未定义的错误代码");
 		break;
-	}	return strText;
+	}	
+	return strText;
 }
 
 CADSLDialUtilityDlg::CADSLDialUtilityDlg(CWnd* pParent /*=NULL*/)
